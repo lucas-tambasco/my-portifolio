@@ -9,7 +9,7 @@ export const HeroSection = () => {
       <div className="container max-w-4xl mx-auto text-center z-10">
         <div className="space-y-6 flex justify-center">
           <img
-            src="public/Perfil.jpg"
+            src="Perfil.jpg"
             alt="Foto de perfil"
             className="w-60 h-60 object-cover border-4 border-primary rounded-full transition-transform duration-500 mb-5 card-hove animate-fade-in"
           />
