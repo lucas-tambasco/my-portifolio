@@ -10,12 +10,12 @@ export const HeroSection = () => {
         <div className="space-y-6 flex justify-center">
           <img
             src="/src/assets/Perfil.jpg"
-            alt="Não encontrado"
-            className="w-80 h-80 object-cover border-4 border-primary rounded-full transition-transform duration-500 mb-5 card-hove animate-fade-in"
+            alt="Foto de perfil"
+            className="w-60 h-60 object-cover border-4 border-primary rounded-full transition-transform duration-500 mb-5 card-hove animate-fade-in"
           />
         </div>
         <div className="space-y-6">
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
+          <h1 className="text-3xl md:text-5xl font-bold tracking-tight">
             <span className="opacity-0 animate-fade-in">Hi, I'm</span>
             <span className="text-primary opacity-0 animate-fade-in-delay-1">
               {" "}
@@ -43,7 +43,7 @@ export const HeroSection = () => {
         </div>
       </div>
 
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
+      <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
         <span className="text-sm text-muted-foreground mb-2">Scroll</span>
         <ArrowDown className="h-5 w-5 text-primary" />
       </div>
