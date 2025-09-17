@@ -32,7 +32,7 @@ export const AboutSection = () => {
               </a>
               <a
                 href="#contact"
-                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/20 transition-colors duration-300 font-bold"
+                className="px-6 py-2 rounded-full border-2 border-primary text-primary hover:bg-primary/20 transition-colors duration-300 font-bold"
               >
                 Download CV
               </a>

@@ -11,7 +11,7 @@ export const HeroSection = () => {
           <img
             src="/src/assets/Perfil.jpg"
             alt="Não encontrado"
-            className="w-80 h-80 object-cover border-4 border-primary rounded-full transition-transform duration-500 mb-5 card-hover"
+            className="w-80 h-80 object-cover border-4 border-primary rounded-full transition-transform duration-500 mb-5 card-hove animate-fade-in"
           />
         </div>
         <div className="space-y-6">
